@@ -91,3 +91,28 @@ img {
 .quote-author {
     font-weight: 900;
 }
+
+.cta {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: blue;
+    color: white;
+    border-radius: 10px;
+}
+
+.cta-left{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 75%;
+    gap: 10px;
+    padding: 10px;
+}
+
+.cta-head {
+    font-weight: 900;
+}
