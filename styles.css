@@ -24,13 +24,14 @@ body {
     justify-content: space-between;
     padding: 25px;
     gap: 25px;
+    background-color: lightblue;
 }
 
 .desc {
     width: 200vh;
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 
 .desc-1 {
