@@ -75,3 +75,19 @@ button {
 img {
     border-radius: 25px;
 }
+
+.quote {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    padding: 75px;
+    gap: 20px;
+}
+
+.quote-body {
+    font-style: italic;
+}
+
+.quote-author {
+    font-weight: 900;
+}
