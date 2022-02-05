@@ -1,7 +1,7 @@
 body {
     margin-left: 100px;
     margin-right: 100px;
-    font-family: sans-serif;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 .header {
@@ -11,6 +11,11 @@ body {
     justify-content: space-between;
     padding: 25px;
     background-color: blue;
+}
+
+.logo {
+    font-size: larger;
+    font-weight: 900;
 }
 
 .nav-bar {
@@ -43,4 +48,30 @@ button {
     width: 100px;
     height: 20px;
     cursor: pointer;
+}
+
+.content {
+    padding: 25px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+}
+
+.content-header {
+    font-size: larger;
+    font-weight: 900;
+}
+
+.cards {
+    display: flex;
+    font-size: small;
+    gap: 100px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+img {
+    border-radius: 25px;
 }
