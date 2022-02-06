@@ -1,3 +1,8 @@
+a {
+    text-decoration: none;
+    color: white;
+}
+
 body {
     margin-left: 100px;
     margin-right: 100px;
@@ -11,7 +16,6 @@ body {
     justify-content: space-between;
     padding: 25px;
     background-color: #1f2937;
-    position: fixed;
     left: 100px;
     right: 100px;
     top: 0;
@@ -35,7 +39,6 @@ body {
     padding: 25px;
     gap: 25px;
     background-color: #9baabe;
-    margin-top: 70px;
     color: white;
 }
 
@@ -57,7 +60,7 @@ button {
     cursor: pointer;
 }
 
-.content {
+#content {
     padding: 25px;
     display: flex;
     align-items: center;
@@ -70,7 +73,7 @@ button {
     font-weight: 900;
 }
 
-.cards {
+#cards {
     color: gray;
     display: flex;
     font-size: small;
@@ -90,7 +93,7 @@ img {
     border-radius: 25px;
 }
 
-.quote {
+#quote {
     background-color: #9baabe;
     display: flex;
     flex-direction: column;
